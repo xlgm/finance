@@ -1,0 +1,121 @@
+.h36lh36() {
+  height: 36px;
+  line-height: 36px;
+}
+.centerF() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-adjust {
+  .search-container {
+    & > div {
+      display: flex;
+      padding: .5rem 1rem 0;
+      .search-container-item {
+        display: flex;
+        align-items: center;
+        & > h3 {
+          padding: 0 1rem;
+        }
+        .ant-select  {
+          width: 5rem;
+        }
+        .ant-select-selection {
+          .h36lh36();
+        }
+        .ant-select-selection__rendered {
+          .h36lh36();
+        }
+        .ant-select-show-search {
+          width: 12rem !important;
+        }
+        .ant-calendar-picker-input {
+          height: 36px;
+        }
+        .advanced-search {
+          margin-left: 3.7rem;
+        }
+      }
+    }
+    .btns-container {
+      justify-content: space-between;
+      align-items: center;
+      max-width: 63rem;
+      .search-container-item {
+        .advanced-search {
+          z-index: 3;
+          position: relative;
+          width: 100px;
+          & > i {
+            padding-left: .2rem;
+          }
+          .clearLine {
+            z-index: 3;
+            position: absolute;
+            bottom: 0;
+            left: 1;
+            width: 98px;
+            height: 2px;
+            background: #fff; 
+          }
+          .advanced-search-pop {
+            z-index: 2;
+            position: absolute;
+            top: 33px;
+            left: 0;
+            width: 20rem;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            & > div {
+              padding: 1rem;
+              background-color: #fff;
+            }
+            & > .btns-confirm {
+              & > div {
+                margin: 0 .5rem;
+              }
+              background-color: #eee;
+            }
+            .certify-select {
+              .centerF();
+              & > p {
+                margin-right: 1rem;
+              }
+              & > .ant-select {
+                width: 8rem;
+              }
+            }
+            .ant-checkbox-group {
+              .centerF();
+              flex-direction: column;
+              & > label {
+                display: block;
+                width: 8rem;
+                text-align: left;
+              }
+              & > label:last-child {
+                margin-right: 8px;
+              }
+            }
+          }
+        }
+      }
+      .btn-container-group {
+        & > div {
+          margin-left: .5rem;
+        }
+        & > .reSplit {
+          width: 100px; 
+        }
+      }
+    }
+  }
+  .ant-table-wrapper {
+    margin-top: 1rem;
+    .ant-pagination.ant-table-pagination {
+      .centerF();
+      width: 100%;
+    }
+  }
+}

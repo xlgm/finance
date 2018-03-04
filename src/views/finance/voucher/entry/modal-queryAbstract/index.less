@@ -1,0 +1,34 @@
+.lh2verticalMid() {
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.wrap-queryAbstract {
+  &-header {
+    display: flex;
+    padding-bottom: 1rem;
+    .ant-input {
+      height: 36px;
+      margin-right: 1rem;
+    }
+  }
+  &-content {
+    & > h3 {
+      .lh2verticalMid();
+      background-color: #eee;
+    }
+    & > ul{
+      overflow-y: auto;
+      height: 200px;
+      border: 1px solid #ddd;
+      & > li {
+        .lh2verticalMid();
+        border-bottom: 1px solid #ddd;
+      }
+      & > li:nth-child(even) {
+        background-color: #eee;
+      }
+    }
+  }
+}

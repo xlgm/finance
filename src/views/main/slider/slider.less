@@ -1,0 +1,40 @@
+#slider{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 220px;
+    overflow-y: auto;
+    
+    .ant-menu{
+        background: #fff;
+        .ant-menu-item{
+            &:hover{
+                background: #F1F4F8;
+                color: #6B529E;
+            }
+            &::after{
+              left: 0;
+            }
+        }
+        .ant-menu-item-selected{
+          background: #F1F4F8;
+          color: #6B529E;
+          &::after{
+              position: absolute;
+              display: block;
+              content: '';
+              left: 0;
+              top: 0;
+              height: 100%;
+              width: 4px;
+              background: #6B529E;
+          }
+        }
+
+    }
+    .ant-menu-inline .ant-menu-item:after, .ant-menu-vertical .ant-menu-item:after{
+      left: 0;
+      right: auto;
+    }
+}

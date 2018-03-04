@@ -1,0 +1,127 @@
+.centerF() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.table-cashFlow-main {
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1336px;
+    padding: 1rem 0;
+    .header-container {
+      display: flex;
+      .header-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .ant-select {
+          width: 100px;
+          height: 36px;
+          .ant-select-selection {
+            height: 36px;
+            .ant-select-selection__rendered {
+              line-height: 36px;
+            }
+          }
+        }
+        h3 {
+          padding: 0 1rem;
+        }
+      
+      }
+      .report {
+        .ant-select-selection{
+          height: 36px;
+          margin-left: 1rem;
+          .ant-select-selection__rendered {
+            line-height: 36px;
+          }
+        }
+      }
+      .issues {
+        margin-left: 1rem;
+        .ant-input {
+          height: 36px;
+          line-height: 36px;
+        }
+      }
+      .advanced-search {
+        z-index: 3;
+        position: relative;
+        width: 100px;
+        margin-left: 1rem;
+        & > i {
+          padding-left: .2rem;
+        }
+        .clearLine {
+          z-index: 3;
+          position: absolute;
+          bottom: 0;
+          left: 1;
+          width: 98px;
+          height: 2px;
+          background: #fff; 
+        }
+        .advanced-search-pop {
+          z-index: 2;
+          position: absolute;
+          top: 33px;
+          left: 0;
+          width: 20rem;
+          border: 1px solid #ddd;
+          border-radius: 6px;
+          & > div {
+            padding: 1rem;
+            background-color: #fff;
+          }
+          & > .btns-confirm {
+            & > div {
+              margin: 0 .5rem;
+            }
+            background-color: #eee;
+          }
+          .certify-select {
+            .centerF();
+            & > p {
+              margin-right: 1rem;
+            }
+            & > .ant-select {
+              width: 8rem;
+            }
+          }
+          .ant-checkbox-group {
+            .centerF();
+            flex-direction: column;
+            & > label {
+              display: block;
+              width: 8rem;
+              text-align: left;
+            }
+            & > label:last-child {
+              margin-right: 8px;
+            }
+          }
+        }
+      }
+    }
+    .btns-group {
+      & > div {
+        margin: 0 .5rem;
+      }
+      .moreOpr {
+        position: relative;
+        & > ul {
+          z-index: 3;
+          position: absolute;
+          top: 36px;
+          left: 0;
+          transition: height .5s;
+          width: 100%;
+          border: 1px solid #ddd;
+          background-color: #fff;
+        }
+      }
+    }
+  }
+}

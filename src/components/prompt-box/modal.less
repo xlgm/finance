@@ -1,0 +1,50 @@
+.prompt-box{
+  text-align: center;  
+  .ant-modal {
+    display: inline-block;
+    vertical-align: middle;
+    top: 0;
+    text-align: left;
+  }
+  &::before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    width: 0;
+  }
+  .ant-modal-title{
+    i{
+      color: #735ba5;
+      font-size: 16px;
+      margin-right: 10px;
+    }
+  }
+  .ant-modal-body{
+    padding: 0;
+  }
+
+  .prompt-content{
+    width: 100%;
+    padding: 16px;
+    display: table;
+     .text-content{ 
+       height: 100px;
+       display: table-cell;
+       vertical-align: middle; 
+       font-size: 14px;
+       width: 100%; 
+       word-wrap:break-word;
+       word-break:break-all; 
+     }
+  }
+  
+  .prompt-buttons{  
+    padding: 10px 0;
+    background-color: #f0f3f8;
+    text-align: center; 
+    div:nth-of-type(1){
+      margin-right: 10px;
+    }
+  }
+}

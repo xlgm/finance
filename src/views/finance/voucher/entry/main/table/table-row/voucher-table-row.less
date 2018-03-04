@@ -1,0 +1,46 @@
+
+.entry-table-row{
+    height: 80px;
+    display: table-row;
+    vertical-align: inherit;
+    
+    >td{
+      word-break: break-all;
+      border-right:1px solid #DFE2E5;
+      border-bottom: 1px solid #DFE2E5;
+      &:last-child{
+        border-right:none;
+      }
+    }
+    .col_operate{
+      width: 24px;
+      border: 1px solid #FFF;
+      border-right:1px solid #DFE2E5;
+      position: relative;
+      i{
+        font-size: 14px;
+        cursor: pointer;
+        display: none;
+        position: absolute;
+      }
+      .anticon-plus-circle{
+        color:#8464C5;
+        left: 0;
+        top: 23px;
+      }
+      .anticon-close-circle{
+        color:#ED1C24;
+        margin-top: 6px;
+        left: 0;
+        top: 38px;
+      }
+    }
+    &:hover{
+      .col_operate{
+        i{
+          display: block;
+        }
+      }
+    }
+
+}

@@ -1,0 +1,68 @@
+.asset-layout{
+  width: 100%; 
+  .ant-table-thead {
+      display: none;
+  }
+ 
+  .edit-div{
+    display: table;
+    width: 100%; 
+    line-height:26px;
+    .edit-name,i{
+      display: table-cell;
+      vertical-align: middle;
+    }
+    .edit-name{
+      width: 95%;   
+    }
+    i{
+      width: 5%;
+      color: #735ba5; 
+      cursor: pointer; 
+      font-size: 15px; 
+    }
+    .icon-list_bianjieps::before{
+      content: "";
+    }
+      
+  } 
+
+  .formula{
+    display: table;
+    width: 100%; 
+    line-height:26px;
+    .formula-text,i{
+      display: table-cell;
+      vertical-align: middle;
+    }
+    .formula-text{
+      width: 95%;   
+    }
+    i{
+      width: 5%;
+      color: #735ba5; 
+      cursor: pointer; 
+      text-align: center;
+      font-size: 20px; 
+    }
+    .icon-chakan::before{
+      content: "";
+    }
+  }
+
+
+
+  .ant-table-bordered .ant-table-tbody > tr > td:nth-child(1):hover  { 
+    cursor: pointer;
+    .icon-list_bianjieps::after{
+      content: "\e6d1";  
+    }
+  }
+
+  .ant-table-bordered .ant-table-tbody > tr > td:nth-child(3):hover ,.ant-table-bordered .ant-table-tbody > tr > td:nth-child(4):hover { 
+    cursor: pointer;
+    .icon-chakan::after{
+      content: "\e6c4";  
+    }
+  }
+}

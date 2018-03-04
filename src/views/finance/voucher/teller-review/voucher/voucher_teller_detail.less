@@ -1,0 +1,181 @@
+.voucher_teller_detail{
+  
+    .teller_detail_content{
+      position: absolute;
+      padding: 20px;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      overflow-y: auto;
+    }
+    .btn_group{
+      .btn{
+        margin-left: 20px;
+      }
+      .keyboard_col{
+        position: relative;
+       .keyboard{
+         display: inline-block;
+         position: absolute;
+         right: 30px;
+         top: 4px;
+       }
+      }
+      
+    }
+    
+    .dir_title{
+      text-align: center;
+      height: 80px;
+      line-height: 80px;
+      position: relative;
+      border-bottom: 1px solid  #E6EAEE;
+      margin-bottom: 20px;
+      h2{
+        font-size: 22px;
+        color: #354052;
+      }
+      .entry-title-label{
+        position: absolute;
+        right: 30px;
+        top: 4px;;
+        >div{
+          display: inline-block;
+        }
+        .review-name{
+          border: 2px solid #ED1C24;
+          border-radius: 4px;
+          padding: 0 6px;
+          font-size: 16px;
+          color: #ED1C24;
+          font-weight: 600;
+          height: 30px;
+          line-height: 30px;
+          margin-right: 30px;
+        }
+        .icon-pingzheng_yishenhe{
+          color: #ED1C24;
+          font-size: 60px;
+        }
+      }
+    }
+  
+    .dir_header{
+      .xing{
+        color: #ed1c24;
+      }
+      
+      .org-line{
+        height: 40px;
+        span:nth-child(1){
+          line-height: 40px;
+          position: relative;
+          top: -8px;
+        }
+        .account-org{
+          background: #EAEEF1;
+          border: 1px solid #E6EAEE;
+          border-radius: 4px;
+          padding: 0 6px;
+          height: 26px;
+          line-height: 26px;
+          display: inline-block;
+          white-space:nowrap; 
+          text-overflow:ellipsis;
+          overflow: hidden;
+          width: 160px;
+          margin-top: 4px;
+        }
+      }
+    
+      .h-ledger{
+        display: inline-block;
+      }
+    
+      .h-label{
+        margin-right: 6px;
+      }
+      .header-right{
+        text-align: right;
+      }
+    }
+  
+    .dir_table{
+      table{
+        margin: 20px 0 10px 0px;
+        border: 1px solid #DFE2E5;
+        border-radius: 4px;
+        border-collapse: collapse;
+        height: 100%;
+        overflow-x: auto;
+      
+        .col_index{
+          width: 60px;
+          text-align: center;
+        }
+        .col_summary{
+          width: 170px;
+        }
+        .col_subject{
+          width: 230px;
+        }
+        .col_currency{
+          width: 140px;
+        }
+        .col_money{
+          width: 180px;
+        }
+        .col_settlement{
+          width: 140px;
+        }
+        .col_settlement_number{
+          width: 110px;
+      
+        }  
+      }
+      thead{
+        background: #F5F8FA;
+        >tr{
+          height: 80px;
+          display: table-row;
+          vertical-align: inherit;
+          >th{
+            word-break: break-all;
+            font-weight: 600;
+            border-right:1px solid #DFE2E5;
+            border-bottom: 1px solid #DFE2E5;
+            &:last-child{
+              border-right:none;
+            }
+          }
+        }
+      }
+  
+      tbody{
+        tr{
+          height: 80px;
+          display: table-row;
+          vertical-align: inherit;
+          
+          >td{
+            word-break: break-all;
+            border-right:1px solid #DFE2E5;
+            border-bottom: 1px solid #DFE2E5;
+            &:last-child{
+              border-right:none;
+            }
+          }
+        }
+      }
+      tfoot{
+        >tr>td{
+          height: 80px;
+          line-height: 80px;
+          border-right:1px solid #DFE2E5;
+        }
+      }
+    }
+    
+    
+  }

@@ -1,0 +1,36 @@
+.entry_col_summary{
+  position: relative;
+  height: 80px;
+
+  .summary_name{
+    position: absolute;
+    right: 2px;
+    top: 30px;
+    cursor: pointer;
+    display: none;
+    z-index: 100;
+  }
+
+  &:hover{
+    .summary_name{
+      display: block;
+    }
+
+  }
+  .ant-input{
+    height: 80px;
+    padding-right: 30px;
+    
+  }
+  .ant-select-search__field__wrap{
+    .ant-input{
+      border-width:0;
+    }
+  }
+
+  .ant-select-auto-complete.ant-select .ant-input:focus{
+    border-width: 1px;
+  }
+  
+
+}

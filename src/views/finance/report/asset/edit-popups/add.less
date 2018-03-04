@@ -1,0 +1,73 @@
+.editcc-dialog{
+  text-align: center;  
+  .ant-modal {
+    display: inline-block;
+    vertical-align: middle;
+    top: 0;
+    text-align: left;
+  }
+  &::before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    width: 0;
+  }
+
+  .content-main{
+    width: 100%;  
+    .icon-tubiaoguanbishanchu{
+      cursor: pointer;
+    }
+  }
+
+  .add-content{
+     width: 100%;
+     height: 36px;
+     margin-bottom: 24px; 
+  }
+  .ant-table-footer{
+    padding: 0;
+    height: 36px;
+    overflow-y: scroll;
+    .footer-total{
+      width: 100%;
+      height: 100%;
+      display: table;
+      span{
+        display: table-cell;
+        vertical-align: middle;
+        padding: 0 8px;
+        border-right: 1px solid #e9e9e9;
+      }
+      span:nth-child(1){
+        width: 20%;
+      }
+      span:nth-child(2){
+        width: 15%;
+      }
+      span:nth-child(3){
+        width: 15%;
+      }
+      span:nth-child(4){
+        width: 20%;
+      }
+      span:nth-child(5){
+        width: 20%; 
+      } 
+      span:nth-child(6){
+        border-right:0;
+      } 
+      
+    }
+  }
+  
+  .add-buttons{
+      padding-top: 10px;
+      text-align: center;
+    div:nth-child(1){
+        margin-right: 20px;
+    }
+  }
+  
+}

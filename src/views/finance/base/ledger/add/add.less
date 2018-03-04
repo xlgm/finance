@@ -1,0 +1,39 @@
+.ledgerAdd {
+    .ledgerAddContent {
+        overflow: scroll;
+        position: absolute; 
+        top: 69px;
+        left: 0;
+        right: 0;
+        bottom: 25px; 
+        margin-left: 1rem;
+        padding: 0 16px;
+        padding-top: 1rem;
+        background-color: #fff;
+        box-sizing: border-box;
+    }
+    & > .btns {
+        padding: 20px 16px 13px 16px;
+        & > div {
+            margin-right: 1rem;
+        }
+    }
+    .el-form-item {
+        width: 40%;
+    }
+    .ledgerAddForm {
+        margin-top: 1rem;
+        .booksDescription {
+            width: 100% !important;
+            .el-form-item__content {
+                width: 85%;
+            }
+            .el-textarea {
+                width: 75.3%;
+            }
+        }
+    }
+    .el-scrollbar__bar.is-horizontal, .el-scrollbar__bar.is-vertical {
+        display: none;
+    }
+}

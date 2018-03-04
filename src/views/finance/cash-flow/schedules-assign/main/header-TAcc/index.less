@@ -1,0 +1,124 @@
+.header-schedulesAssign {
+  .btnGroup-container {
+    padding: .5rem 1rem;
+    & > div {
+      margin-right: 1rem;
+    }
+    & > .reSplit {
+      width: 110px;
+    }
+  }
+  .search-container {
+    display: flex;
+    & > .search-item {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: content-box;
+      & > h3 {
+        padding: 0 .5rem 0 1rem;
+      }
+      & > .beginDate {
+        width: 4rem;
+        padding: 0;
+      }
+      & > .ant-select {
+        width: 10rem;
+      }
+      .btn-advancedQuery {
+        // padding: 0 .5rem;
+        .anticon-caret-down {
+          margin-left: .5rem;
+        }
+      }
+    }
+    .advanced-query-tacc {
+      margin-left: 1rem;
+    }
+    .topSearch-aq-content {
+      padding: 2rem;
+      li {
+        display: flex;
+        padding: 1rem 2rem;
+        border-bottom: 1px solid #d9d9d9;
+      }
+      h3 {
+        width: 8rem;
+        text-align: right;
+        color: #aaa;
+      }
+      .noBorderBottom {
+        border-bottom: 0;
+      }
+      .advancedQuery-item {
+        padding-left: 1rem;
+        .ant-radio-wrapper, .ant-checkbox-wrapper {
+          display: block;
+        }
+        .ant-switch {
+          width: 4rem;
+        }
+        p {
+          display: flex;
+          align-items: center;
+          // padding-top: 1rem;
+          span {
+            padding-right: .5rem;
+          }
+        }
+        .ant-radio-wrapper {
+          padding-top: 1rem;
+        }
+        .ant-radio-group {
+          .ant-radio-wrapper {
+            padding-top: 1rem;
+          }
+        }
+        .ant-checkbox-wrapper {
+          padding-top: 1rem;
+        }
+        .ant-checkbox-wrapper:first-child {
+          padding-top: 0;
+        }
+        .noPaddingTop {
+          padding: 0;
+        }
+      }
+      .advancedQuery-item.expand {
+        height: 168px;
+      }
+      .other {
+        border-bottom: none;
+      }
+    }
+  }
+}
+.reSplitModal {
+  text-align: center;
+  white-space: nowrap;
+  .ant-modal {
+    display: inline-block;
+    vertical-align: middle;
+    top: 0;
+    text-align: left;
+  }
+  &::before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    width: 0;
+  }
+  .ant-modal-content {
+    width: 26rem;
+  }
+  .title, .ant-radio-group, .tipText {
+    padding: .5rem 0;
+  }
+  .ant-modal-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

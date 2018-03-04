@@ -1,0 +1,42 @@
+.row-TAcc {
+  position: relative;
+  & > .colcol {
+    position: relative;
+  }
+  & > div {
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    & > .ant-input-search {
+      width: 100%;
+    }
+  }
+  .ant-table-wrapper {
+    z-index: 10;
+    position: absolute;
+    top: 36px;
+    left: -25%;
+    width: 150%;
+    .ant-table-thead {
+      th {
+        padding: 0;
+        text-align: center;
+        height: 30px;
+      }
+    }
+    .ant-table-body {
+      .ant-table-tbody {
+        background-color: #fff;
+        td {
+          text-align: center;
+        }
+      }
+    }
+  }
+  .ant-select-selection__rendered {
+    ul {
+      padding: 0;
+    }
+  }
+  
+}

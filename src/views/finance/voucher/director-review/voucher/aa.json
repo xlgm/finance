@@ -1,0 +1,194 @@
+{
+  "accPeriod": 0,
+  "accYear": 0,
+  "amount": 0,
+  "attachmentNum": 0,
+  "auditDesc": "string",
+  "auditTime": {
+    "chronology": {
+      "calendarType": "string",
+      "id": "string"
+    },
+    "dayOfMonth": 0,
+    "dayOfWeek": "MONDAY",
+    "dayOfYear": 0,
+    "hour": 0,
+    "minute": 0,
+    "month": "JANUARY",
+    "monthValue": 0,
+    "nano": 0,
+    "second": 0,
+    "year": 0
+  },
+  "auditorID": 0,
+  "auditorName": "string",
+  "booksID": 0,
+  "cashCheckID": 0,
+  "cashCheckName": "string",
+  "cashCheckTime": {
+    "chronology": {
+      "calendarType": "string",
+      "id": "string"
+    },
+    "dayOfMonth": 0,
+    "dayOfWeek": "MONDAY",
+    "dayOfYear": 0,
+    "hour": 0,
+    "minute": 0,
+    "month": "JANUARY",
+    "monthValue": 0,
+    "nano": 0,
+    "second": 0,
+    "year": 0
+  },
+  "certificateCode": "string",
+  "certificateDate": {
+    "chronology": {
+      "calendarType": "string",
+      "id": "string"
+    },
+    "dayOfMonth": 0,
+    "dayOfWeek": "MONDAY",
+    "dayOfYear": 0,
+    "hour": 0,
+    "minute": 0,
+    "month": "JANUARY",
+    "monthValue": 0,
+    "nano": 0,
+    "second": 0,
+    "year": 0
+  },
+  "certificateID": 0,
+  "certificateOrder": 0,
+  "certificateSource": 0,
+  "certificateStatus": 0,
+  "certificateType": 0,
+  "certificateWord": "string",
+  "certificateWordID": 0,
+  "checkID": 0,
+  "checkName": "string",
+  "createTime": {
+    "chronology": {
+      "calendarType": "string",
+      "id": "string"
+    },
+    "dayOfMonth": 0,
+    "dayOfWeek": "MONDAY",
+    "dayOfYear": 0,
+    "hour": 0,
+    "minute": 0,
+    "month": "JANUARY",
+    "monthValue": 0,
+    "nano": 0,
+    "second": 0,
+    "year": 0
+  },
+  "creatorID": 0,
+  "creatorName": "string",
+  "details": [
+    {
+      "abstractContent": "string",
+      "amount": 0,
+      "booksID": 0,
+      "captionMappingID": 0,
+      "cashflows": [
+        {
+          "captionmappingID": 0,
+          "certificateCaptionItemMappingID": 0,
+          "certificateDetailID": 0,
+          "certificateID": 0,
+          "createTime": {
+            "chronology": {
+              "calendarType": "string",
+              "id": "string"
+            },
+            "dayOfMonth": 0,
+            "dayOfWeek": "MONDAY",
+            "dayOfYear": 0,
+            "hour": 0,
+            "minute": 0,
+            "month": "JANUARY",
+            "monthValue": 0,
+            "nano": 0,
+            "second": 0,
+            "year": 0
+          },
+          "creatorID": 0,
+          "creatorName": "string",
+          "currencyID": 0,
+          "currencyName": "string",
+          "debitAmout": 0,
+          "debitOriAmout": 0,
+          "exchangeRate": 0,
+          "masterItemID": 0,
+          "memo": "string",
+          "orgID": 0,
+          "otherAccCaptionID": 0,
+          "scheduleItemID": 0,
+          "status": 0
+        }
+      ],
+      "certificateDetailID": 0,
+      "certificateID": 0,
+      "createTime": {
+        "chronology": {
+          "calendarType": "string",
+          "id": "string"
+        },
+        "dayOfMonth": 0,
+        "dayOfWeek": "MONDAY",
+        "dayOfYear": 0,
+        "hour": 0,
+        "minute": 0,
+        "month": "JANUARY",
+        "monthValue": 0,
+        "nano": 0,
+        "second": 0,
+        "year": 0
+      },
+      "creatorID": 0,
+      "creatorName": "string",
+      "creditBalance": 0,
+      "creditOriAmout": 0,
+      "currencyID": 0,
+      "currencyName": "string",
+      "detailDesc": "string",
+      "direction": 0,
+      "exchangeRate": 0,
+      "fullCaptionName": "string",
+      "latitudes": [
+        {
+          "accLatitudeDetailCode": "string",
+          "accLatitudeDetailID": 0,
+          "accLatitudeDetailName": "string",
+          "accLatitudeID": 0,
+          "certificateDetailID": 0,
+          "creatorID": 0,
+          "creatorName": "string",
+          "mappingID": 0,
+          "memo": "string",
+          "orgID": 0,
+          "status": 0
+        }
+      ],
+      "memo": "string",
+      "orgID": 0,
+      "oriAmount": 0,
+      "otherAccCaptionID": "string",
+      "paymentMethodID": 0,
+      "paymentName": "string",
+      "reverseAmount": 0,
+      "reverseOriAmount": 0,
+      "settlementNum": "string",
+      "status": 0
+    }
+  ],
+  "isSetCashItem": 0,
+  "isSettle": 0,
+  "memo": "string",
+  "orgID": 0,
+  "peoplePostID": 0,
+  "peoplePostName": "string",
+  "relCertificateID": 0,
+  "status": 0
+}

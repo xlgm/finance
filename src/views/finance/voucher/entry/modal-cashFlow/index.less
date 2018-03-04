@@ -1,0 +1,72 @@
+
+.iconStyle() {
+  position: relative;
+  width: 100%;
+  .iconContainer {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+  }
+}
+.vt-modal2CashFlow {
+  .ant-input {
+    width: 100%;
+  }
+  .title {
+    width: 245px;
+    margin-left: 1rem;
+  }
+  &-table {
+    & > h3 {
+      padding-top: 1rem;
+    }
+    .table-add {
+      position: relative;
+    }
+    .thead-oppositeSubject {
+      .iconStyle();
+    }
+    .thead-mainSubject {
+      .iconStyle();
+    }
+    .thead-Llsts {
+      .iconStyle();
+    }
+    .ul-opposite-dropdown {
+      z-index: 2;
+      position: absolute;
+      left: 6.5rem;
+      top: 0;
+      width: 22.3%;
+      box-sizing: border-box;
+      border: 1px solid #eee;
+      border-radius: 6px;
+      box-shadow: 0 0 1px;
+      background-color: #fff;
+      & > li {
+        height: 28px;
+        line-height: 28px;
+        padding: 0 .5rem;
+      }
+      & > li:hover {
+        background-color: #F1F4F8;
+      }
+    }
+  }
+  .ant-table {
+    padding-top: 1rem;
+  }
+}
+.btnGroup-addCashFlowOpr {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 1rem;
+  & > div {
+    margin-right: 1rem;
+  }
+}

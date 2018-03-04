@@ -1,0 +1,46 @@
+.entry_col_subject{
+
+  position: relative;
+  height: 80px;
+
+  .subject_name{
+    position: absolute;
+    right: 2px;
+    top: 30px;
+    cursor: pointer;
+    display: none;
+    z-index: 100;
+  }
+  .subject_money{
+    position: absolute;
+    left: 8px;
+    bottom: 2px;
+    display: none;
+    z-index: 100;
+  }
+
+  &:hover{
+    .subject_name{
+      display: block;
+    }
+    .subject_money{
+      display: block;
+    }
+  }
+  .ant-input{
+    height: 80px;
+    padding-right: 30px;
+    
+  }
+  .ant-select-search__field__wrap{
+    .ant-input{
+      border-width:0;
+    }
+  }
+
+  .ant-select-auto-complete.ant-select .ant-input:focus{
+    border-width: 1px;
+  }
+
+
+}

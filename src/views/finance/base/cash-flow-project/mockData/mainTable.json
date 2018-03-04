@@ -1,0 +1,54 @@
+{
+    "pageNum": 1,
+    "pageSize": 10,
+    "total": 8,
+    "pages": 1,
+    "data": [
+      {
+        "code": "CI01.01",
+        "name": "现金流入",
+        "type": "主表项目",
+        "direction": "现金流入/增加",
+        "state": "启用"
+      },
+      {
+        "code": "CI01.02",
+        "name": "现金流出",
+        "type": "主表项目",
+        "direction": "现金流出/增加",
+        "state": "启用"
+      },
+      {
+        "code": "CI01.03",
+        "name": "现金流入",
+        "type": "主表项目",
+        "direction": "现金流入/减少",
+        "state": "启用"
+      },
+      {
+        "code": "CI01.01",
+        "name": "现金流入",
+        "type": "主表项目",
+        "direction": "现金流入/增加",
+        "state": "启用"
+      },
+      {
+        "code": "CI01.02",
+        "name": "现金流出",
+        "type": "主表项目",
+        "direction": "现金流出/增加",
+        "state": "启用"
+      },
+      {
+        "code": "CI01.03",
+        "name": "现金流入",
+        "type": "主表项目",
+        "direction": "现金流入/减少",
+        "state": "启用"
+      }
+
+    ],
+    "code": "1",
+    "message": "查询成功!",
+    "timestamp": 1508150411874
+}
